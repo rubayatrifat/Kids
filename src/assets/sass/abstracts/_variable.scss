@@ -6,8 +6,8 @@
 /*================ Css Variables Start ===============*/
   :root {    
     /* === Font Family === */
-    --heading-font: 'Teko', sans-serif;
-    --body-font: 'Rubik', sans-serif;
+    --heading-font: 'Baloo Tammudu 2', sans-serif;
+    --body-font: 'Poppins', sans-serif;
     
     /* === TypoGraphy ===*/
     --heading-one: clamp(1.5rem, 2.8vw + 1rem, 3.75rem); //Min:24px - Max:60px
@@ -28,9 +28,9 @@
     --light: var(--light-h) var(--light-s) var(--light-l);
     
     /*== Black Color ==*/
-    --black-h: 0;
-    --black-s: 0%;
-    --black-l: 0%;
+    --black-h: 291;
+    --black-s: 62%;
+    --black-l: 4%;
     --black: var(--black-h) var(--black-s) var(--black-l);
     
     --heading-color: var(--black);
@@ -69,9 +69,9 @@
     // --base-s: 91%;
     // --base-l: 62%;
 
-    --base-h: 16;
-    --base-s: 100%;
-    --base-l: 58%;
+    --base-h: 290;
+    --base-s: 63%;
+    --base-l: 43%;
     --base: var(--base-h) var(--base-s) var(--base-l);
     /*== Base Darken ==*/
     --base-d-100: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.1);
