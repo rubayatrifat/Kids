@@ -1792,7 +1792,7 @@ button:focus {
 .btn {
     color: hsl(var(--white));
     font-weight: 400;
-    padding: 19px 32px 10px 32px;
+    padding: 19px 40px 10px 40px;
     border-radius: 15px;
     position: relative;
     z-index: 1;
@@ -6678,6 +6678,10 @@ html {
 
 .light-dark-btn-wrap .mon-icon.show {
     display: none;
+}
+
+.banner-left__content {
+    padding: 70px 0 0 0;
 }
 
 /*====================== About Section====================*/
