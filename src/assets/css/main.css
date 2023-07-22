@@ -1811,6 +1811,10 @@ button:focus {
     box-shadow: none;
 }
 
+.btn .btn-shape {
+    background-color: hsl(var(--base)/0.4);
+}
+
 .btn::before {
     position: absolute;
     content: "";

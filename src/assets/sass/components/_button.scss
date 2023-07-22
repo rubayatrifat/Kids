@@ -13,6 +13,9 @@ button {
         outline: none;
         box-shadow: none;
       }
+      .btn-shape {
+        background-color: hsl(var(--base)/.4);
+      }
       color: hsl(var(--white));
       font-weight: 400;
       padding: 19px 40px 10px 40px;
@@ -92,7 +95,7 @@ button {
         height: 35px;
         line-height: 35px;
         font-size: 15px;
-        padding: 0;
+        padding: 0;               
     }
     // ============= Different Color Button Start ==================
     &--base {
