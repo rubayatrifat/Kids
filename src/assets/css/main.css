@@ -4,6 +4,7 @@
   /* === Font Family === */
     --heading-font: "Baloo Tammudu 2", sans-serif;
     --body-font: "Poppins", sans-serif;
+    --subtitle-font: "Kalam", sans-serif;
   /* === TypoGraphy ===*/
     --heading-one: clamp(1.5rem, 2.8vw + 1rem, 3.75rem);
     --heading-two: clamp(1.375rem, 1.7vw + 1rem, 2.5rem);
@@ -1812,6 +1813,8 @@ button:focus {
 }
 
 .btn .btn-shape {
+    width: 30px;
+    height: 30px;
     background-color: hsl(var(--base)/0.4);
 }
 
@@ -6684,8 +6687,23 @@ html {
     display: none;
 }
 
-.banner-left__content {
-    padding: 70px 0 0 0;
+.banner-left__content .subtitle {
+    font-family: var(--subtitle-font);
+    color: hsl(var(--base));
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner-left__content h2 {
+    font-size: 68px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.kis-img {
+    margin: 150px 0 75px 0;
 }
 
 /*====================== About Section====================*/

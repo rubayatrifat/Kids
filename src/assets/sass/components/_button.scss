@@ -14,6 +14,8 @@ button {
         box-shadow: none;
       }
       .btn-shape {
+        width: 30px;
+        height: 30px;
         background-color: hsl(var(--base)/.4);
       }
       color: hsl(var(--white));

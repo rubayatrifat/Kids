@@ -1,3 +1,18 @@
 .banner-left__content {
-    padding: 70px 0 0 0;
+    .subtitle {
+        font-family: var(--subtitle-font);
+        color: hsl(var(--base));
+        margin-bottom: 40px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 68px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+}
+.kis-img {
+    margin: 150px 0 75px 0;
 }
