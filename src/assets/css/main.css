@@ -1791,6 +1791,7 @@ button:focus {
 }
 
 .btn {
+    overflow: hidden;
     color: hsl(var(--white));
     font-weight: 400;
     padding: 19px 40px 10px 40px;
@@ -1813,9 +1814,21 @@ button:focus {
 }
 
 .btn .btn-shape {
-    width: 30px;
-    height: 30px;
-    background-color: hsl(var(--base)/0.4);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #A43AB8;
+}
+
+.btn .btn-shape-1 {
+    top: -26px;
+    right: -17px;
+}
+
+.btn .btn-shape-2 {
+    left: -23px;
+    bottom: -25px;
 }
 
 .btn::before {

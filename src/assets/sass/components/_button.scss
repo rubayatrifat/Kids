@@ -14,10 +14,21 @@ button {
         box-shadow: none;
       }
       .btn-shape {
-        width: 30px;
-        height: 30px;
-        background-color: hsl(var(--base)/.4);
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #A43AB8;
       }
+      .btn-shape-1 {
+        top: -26px;
+        right: -17px;
+      }
+      .btn-shape-2 {
+        left: -23px;
+        bottom: -25px;
+      }
+      overflow: hidden;
       color: hsl(var(--white));
       font-weight: 400;
       padding: 19px 40px 10px 40px;
