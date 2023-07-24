@@ -89,9 +89,8 @@
         padding: 0 6px !important;
     }
     .nav-link {
-        @include lg-screen {
-            font-size: 19px !important;
-        }
+        font-size: 16px !important;
+        font-family: var(--body-font);
     }
 }
 /*========================= Desktop Device Start =========================*/
@@ -181,10 +180,10 @@
         }
     }
     &__link{
-        padding: 7px 20px;
+        padding: 10px 0 0 20px;
         font-weight: 500;
         font-size: 18px;
-        transition: .3s;
+        transition: 0.3s;
         &:focus, &:hover {
             color: hsl(var(--white));
             background-color: hsl(var(--base)); 

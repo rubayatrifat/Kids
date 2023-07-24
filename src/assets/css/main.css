@@ -3244,11 +3244,11 @@ select.form-control.form--control:has(option) ~ .form--label {
     }
 }
 
-@media screen and (max-width: 1199px) {
-    .nav-menu .nav-item .nav-link {
-        font-size: 19px !important;
-    }
+.nav-menu .nav-item .nav-link {
+    font-size: 16px !important;
+    font-family: var(--body-font);
 }
+
 /*========================= Desktop Device Start =========================*/
 @media (min-width: 992px) {
     .nav-menu {
@@ -3355,7 +3355,7 @@ select.form-control.form--control:has(option) ~ .form--label {
     }
 
     .dropdown-menu__link {
-        padding: 7px 20px;
+        padding: 10px 0 0 20px;
         font-weight: 500;
         font-size: 18px;
         transition: 0.3s;
@@ -6700,10 +6700,14 @@ html {
     display: none;
 }
 
+.banner-left__content {
+    margin-top: 90px;
+}
+
 .banner-left__content .subtitle {
     font-family: var(--subtitle-font);
     color: hsl(var(--base));
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -6712,7 +6716,7 @@ html {
 .banner-left__content h2 {
     font-size: 68px;
     font-weight: 700;
-    margin-bottom: 60px;
+    margin-bottom: 42px;
 }
 
 .kis-img {
