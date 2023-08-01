@@ -1803,7 +1803,7 @@ button:focus {
     text-transform: capitalize;
     font-weight: 700;
     transition: 0.5s;
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     letter-spacing: 1px;
     font-size: 18px;
 }
@@ -6721,6 +6721,14 @@ html {
 
 .kis-img {
     margin: 150px 0 75px 0;
+}
+
+.shapes img {
+    position: absolute;
+}
+
+.shapes .arrow-1 {
+    top: 20px;
 }
 
 /*====================== About Section====================*/
