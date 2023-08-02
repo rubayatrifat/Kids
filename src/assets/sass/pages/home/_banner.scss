@@ -1,28 +1,49 @@
-.banner-left__content {
-    margin-top: 90px;
-    .subtitle {
-        font-family: var(--subtitle-font);
-        color: hsl(var(--base));
-        margin-bottom: 35px;
-        display: inline-block;                    
-        font-size: 16px;
-        font-weight: 700;
+.banner-section {
+    overflow: hidden;
+    .banner-left-content {
+        margin-top: 90px;
+        .subtitle {
+            font-family: var(--subtitle-font);
+            color: hsl(var(--base));
+            margin-bottom: 35px;
+            display: inline-block;                    
+            font-size: 16px;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 68px;
+            font-weight: 700;
+            margin-bottom: 42px;
+        }
     }
-    h2 {
-        font-size: 68px;
-        font-weight: 700;
-        margin-bottom: 42px;
+    .kis-img {
+        margin: 150px 0 75px 0;
     }
-}
-.kis-img {
-    margin: 150px 0 75px 0;
-}
-
-.shapes {
-    img{
-        position: absolute;
-    }    
-    .arrow-1 {
-        top: 20px;
+    
+    .shapes {
+        img{
+            position: absolute;
+        }    
+        .arrow-1 {
+            top: 31%;
+            left: -55px;
+            width: 230px;
+        }
+        .bird {
+            top: 20%;
+            right: 43%;
+        }
+        .hand {
+            top: 71%;
+            right: 45%;
+        }
+        .rocket {
+            top: 29%;
+            right: 9%;
+        }
+        .man {
+            right: -20px;
+            top: 40%;
+        }
     }
 }

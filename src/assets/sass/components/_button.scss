@@ -28,21 +28,21 @@ button {
         left: -23px;
         bottom: -25px;
       }
-      overflow: hidden;
-      color: hsl(var(--white));
-      font-weight: 400;
-      padding: 19px 40px 10px 40px;
-      border-radius: 15px;
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      border: 1px solid transparent;
-      text-transform: capitalize;
-      font-weight: 700;
-      transition: 0.5s;
-      font-family: var(--body-font);
-      letter-spacing: 1px;
-      font-size: 18px;
+        overflow: hidden;
+        color: hsl(var(--white));
+        font-weight: 400;
+        padding: 16px 39px;
+        border-radius: 15px;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        border: 1px solid transparent;
+        text-transform: capitalize;
+        font-weight: 700;
+        transition: 0.5s;
+        font-family: var(--body-font);
+        letter-spacing: 1px;
+        font-size: 16px;
         &::before {
             position: absolute;
             content: "";
@@ -288,3 +288,6 @@ button {
     }
 }
 // ============= Different Color Button End ==================
+
+
+    

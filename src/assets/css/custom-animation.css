@@ -6,8 +6,8 @@
  .animate-y-axis {
     -webkit-animation-name: y-axis;
     animation-name: y-axis;
-    -webkit-animation-duration: 11s;
-    animation-duration: 11s;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
