@@ -6708,15 +6708,6 @@ html {
     margin-top: 90px;
 }
 
-.banner-section .banner-left-content .subtitle {
-    font-family: var(--subtitle-font);
-    color: hsl(var(--base));
-    margin-bottom: 35px;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .banner-section .banner-left-content h2 {
     font-size: 68px;
     font-weight: 700;
@@ -6755,6 +6746,15 @@ html {
 .banner-section .shapes .man {
     right: -20px;
     top: 40%;
+}
+
+.subtitle {
+    font-family: var(--subtitle-font);
+    color: hsl(var(--base));
+    margin-bottom: 35px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /*====================== About Section Start====================*/

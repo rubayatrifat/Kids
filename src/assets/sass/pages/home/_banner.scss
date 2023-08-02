@@ -2,14 +2,6 @@
     overflow: hidden;
     .banner-left-content {
         margin-top: 90px;
-        .subtitle {
-            font-family: var(--subtitle-font);
-            color: hsl(var(--base));
-            margin-bottom: 35px;
-            display: inline-block;                    
-            font-size: 16px;
-            font-weight: 700;
-        }
         h2 {
             font-size: 68px;
             font-weight: 700;
@@ -46,4 +38,13 @@
             top: 40%;
         }
     }
+}
+
+.subtitle {
+    font-family: var(--subtitle-font);
+    color: hsl(var(--base));
+    margin-bottom: 35px;
+    display: inline-block;                    
+    font-size: 16px;
+    font-weight: 700;
 }
