@@ -1,3 +1,29 @@
+/* Section Title */
+
+.section-title {
+    .section-subtitle {
+        font-family: var(--subtitle-font);
+        color: hsl(var(--base));
+        margin-bottom: 25px;
+        display: inline-block;                    
+        font-size: 16px;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 62px;
+        width: 92%;
+    }
+    p {
+        margin-bottom: 45px;
+        width: 86%;
+    }
+    
+}
+
+/* Banner Area Start */
+
 .banner-section {
     overflow: hidden;
     .banner-left-content {
@@ -6,6 +32,14 @@
             font-size: 68px;
             font-weight: 700;
             margin-bottom: 42px;
+        }
+        .subtitle {
+            font-family: var(--subtitle-font);
+            color: hsl(var(--base));
+            margin-bottom: 35px;
+            display: inline-block;                    
+            font-size: 16px;
+            font-weight: 700;
         }
     }
     .kis-img {
@@ -40,11 +74,5 @@
     }
 }
 
-.subtitle {
-    font-family: var(--subtitle-font);
-    color: hsl(var(--base));
-    margin-bottom: 35px;
-    display: inline-block;                    
-    font-size: 16px;
-    font-weight: 700;
-}
+/* Banner Area End */
+

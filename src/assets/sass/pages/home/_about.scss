@@ -1,5 +1,26 @@
 /*====================== About Section Start====================*/
 
-
+.about-area{
+    .about-left-content{
+        .quality {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            .single-quality {
+                width: 50%;
+                margin-bottom: 20px;
+                span {
+                    display: inline-block;
+                    margin-left: 10px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
 
 /*====================== About Section End ====================*/

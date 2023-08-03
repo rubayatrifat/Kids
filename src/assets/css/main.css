@@ -6700,6 +6700,29 @@ html {
     display: none;
 }
 
+/* Section Title */
+.section-title .section-subtitle {
+    font-family: var(--subtitle-font);
+    color: hsl(var(--base));
+    margin-bottom: 25px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-title h3 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    width: 92%;
+}
+
+.section-title p {
+    margin-bottom: 45px;
+    width: 86%;
+}
+
+/* Banner Area Start */
 .banner-section {
     overflow: hidden;
 }
@@ -6712,6 +6735,15 @@ html {
     font-size: 68px;
     font-weight: 700;
     margin-bottom: 42px;
+}
+
+.banner-section .banner-left-content .subtitle {
+    font-family: var(--subtitle-font);
+    color: hsl(var(--base));
+    margin-bottom: 35px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .banner-section .kis-img {
@@ -6748,16 +6780,29 @@ html {
     top: 40%;
 }
 
-.subtitle {
-    font-family: var(--subtitle-font);
-    color: hsl(var(--base));
-    margin-bottom: 35px;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
+/* Banner Area End */
+/*====================== About Section Start====================*/
+.about-area .about-left-content .quality {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
-/*====================== About Section Start====================*/
+.about-area .about-left-content .quality .single-quality {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.about-area .about-left-content .quality .single-quality span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
 /*====================== About Section End ====================*/
 /*====================== How it works ====================*/
 .service {
