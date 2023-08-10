@@ -1,6 +1,7 @@
 /*====================== About Section Start====================*/
 
 .about-area{
+    position: relative;
     .about-left-content{
         .quality {
             display: flex;
@@ -22,5 +23,18 @@
         }
     }
 }
+
+
+.about-shapes {
+    img {
+        position: absolute;
+    }
+    .about-first-shape {
+        left: 10px;
+        top: 7%;
+        width: 145px;
+    }
+}
+
 
 /*====================== About Section End ====================*/
