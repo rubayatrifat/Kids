@@ -2,6 +2,7 @@
 
 .about-area{
     position: relative;
+    padding: 65px 0 130px 0;
     .about-left-content{
         .quality {
             display: flex;
@@ -32,7 +33,22 @@
     .about-first-shape {
         left: 10px;
         top: 7%;
-        width: 145px;
+    }
+    .about-parashoot {
+        top: 3%;
+        left: 15%;
+    }
+    .arrow-2 {
+        top: 62%;
+        left: 42%;
+    }
+    .about-sun {
+        top: 5%;
+        left: 83%;
+    }
+    .about-umbrella {
+        top: 73%;
+        left: 83%;
     }
 }
 

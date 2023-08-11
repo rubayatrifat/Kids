@@ -6784,6 +6784,7 @@ html {
 /*====================== About Section Start====================*/
 .about-area {
     position: relative;
+    padding: 65px 0 130px 0;
 }
 
 .about-area .about-left-content .quality {
@@ -6814,7 +6815,26 @@ html {
 .about-shapes .about-first-shape {
     left: 10px;
     top: 7%;
-    width: 145px;
+}
+
+.about-shapes .about-parashoot {
+    top: 3%;
+    left: 15%;
+}
+
+.about-shapes .arrow-2 {
+    top: 62%;
+    left: 42%;
+}
+
+.about-shapes .about-sun {
+    top: 5%;
+    left: 83%;
+}
+
+.about-shapes .about-umbrella {
+    top: 73%;
+    left: 83%;
 }
 
 /*====================== About Section End ====================*/
