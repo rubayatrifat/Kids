@@ -59,6 +59,9 @@
         width: 100%;
         box-shadow: rgba(9, 9, 9, 0.05) 0px 1px 0px;
         border-bottom: 1px solid hsl(var(--white)/0.08);
+        .nav-link {
+            color: hsl(var(--white)) !important;
+        }
     }
 }
 .toggle-search-box i {
