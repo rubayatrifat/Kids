@@ -2,7 +2,8 @@
 
 .feature-area {
     background: hsl(var(--base)/.1);
-    padding: 120px 0;
+    padding: 200px 0;
+    position: relative;
     .features {
         display: flex;
         justify-content: space-between;
@@ -31,6 +32,19 @@
                 }
             }
         }
+    }
+}
+
+.feature-shapes {
+    .bird-2 {
+        position: absolute;
+        left: 5%;
+        top: 9%;
+    }
+    .star {
+        position: absolute;
+        right: 8%;
+        top: 9%;
     }
 }
 

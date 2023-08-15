@@ -6812,6 +6812,12 @@ html {
     line-height: 26px;
 }
 
+.about-area .about-wav {
+    position: absolute;
+    bottom: -30px;
+    z-index: 1;
+}
+
 .about-shapes img {
     position: absolute;
 }
@@ -8191,7 +8197,8 @@ Counter One
 /* =================== Featured Start Here ==================== */
 .feature-area {
     background: hsl(var(--base)/0.1);
-    padding: 120px 0;
+    padding: 200px 0;
+    position: relative;
 }
 
 .feature-area .features {
@@ -8227,6 +8234,18 @@ Counter One
 .feature-area .features .single-feature .featured-text p {
     font-size: 14px;
     line-height: 25px;
+}
+
+.feature-shapes .bird-2 {
+    position: absolute;
+    left: 5%;
+    top: 9%;
+}
+
+.feature-shapes .star {
+    position: absolute;
+    right: 8%;
+    top: 9%;
 }
 
 /* =================== Featured End Here ==================== */
