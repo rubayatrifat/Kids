@@ -1,5 +1,42 @@
 /*====================== Service Area Start Here ====================*/
 
+.service-area {
+    padding: 70px 0;
+    position: relative;
+    .service-wav {
+        position: absolute;
+        top: -60px;
+    }
+    .slider-content {
+        text-align: center;
+        margin-top: 30px;
+        padding: 0 15px;
+        h3 {
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 13px;
+        }
+        p {
+            margin-bottom: 25px;
+        }
+        a{
+            font-weight: 700;
+            font-size: 20px;
+            color: hsl(var(--base));
+        }
+    }
+}
+
+.slick-dots li button {
+    border: none;
+    background-color: hsl(var(--white));
+    border: 1px solid hsl(var(--base));
+    margin: 45px 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px 17px 16px 19px;
+    text-indent: -9999px;
+}
 
 
 /*====================== Service Area End Here ====================*/
