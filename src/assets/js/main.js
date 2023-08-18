@@ -91,14 +91,14 @@ $('.theme-btn').on('mouseenter', function (e) {
     });
     
 
-    /*========================= Slick Slider Js Start ==============*/
-    $('.testimonial-slider').slick({
-      slidesToShow: 1,
+    /*========================= Service Slider Js Start ==============*/
+    $('.service-slider').slick({
+      slidesToShow: 3,
       slidesToScroll: 2,
       autoplay: true,
       autoplaySpeed: 5000,
       speed: 3500,
-      dots: false,
+      dots: true,
       pauseOnHover: false,
       arrows: false,
       responsive: [
