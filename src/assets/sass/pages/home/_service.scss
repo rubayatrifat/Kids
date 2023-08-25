@@ -1,7 +1,7 @@
 /*====================== Service Area Start Here ====================*/
 
 .service-area {
-    padding: 70px 0;
+    padding: 70px 0 150px 0;
     position: relative;
     .service-wav {
         position: absolute;
@@ -36,6 +36,12 @@
     height: 20px;
     border-radius: 11px 17px 16px 19px;
     text-indent: -9999px;
+    z-index: 5;
+    position: relative;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background: transparent;
 }
 
 
