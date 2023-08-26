@@ -7062,6 +7062,87 @@ html {
     }
 }
 /*====================== Ticket End Here ====================*/
+.ticket-prcing {
+    padding: 170px 0 110px 0;
+}
+
+.ticket-prcing .single-ticket {
+    text-align: center;
+    padding: 50px 20px;
+    height: 412px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.ticket-prcing .single-ticket .ticket-img {
+    margin-bottom: 60px;
+}
+
+.ticket-prcing .single-ticket .title-price h3 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.ticket-prcing .single-ticket .title-price h3 span {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.ticket-prcing .single-ticket .title-price span {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    display: inline-block;
+}
+
+.ticket-prcing .single-ticket .ticket-btn a {
+    font-size: 16px;
+    font-family: var(--body-font);
+    font-weight: 600;
+}
+
+.ticket-prcing .single-ticket:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ticket-prcing .pink {
+    background-color: #FBDEED;
+}
+
+.ticket-prcing .pink h3 {
+    color: #E2127F;
+}
+
+.ticket-prcing .pink .ticket-btn a {
+    color: #E2127F;
+}
+
+.ticket-prcing .yello {
+    background-color: #FEF7DE;
+}
+
+.ticket-prcing .yello h3 {
+    color: #F8C312;
+}
+
+.ticket-prcing .yello .ticket-btn a {
+    color: #F8C312;
+}
+
+.ticket-prcing .violate {
+    background-color: #E8E1ED;
+}
+
+.ticket-prcing .violate h3 {
+    color: #5E2C82;
+}
+
+.ticket-prcing .violate .ticket-btn a {
+    color: #5E2C82;
+}
+
 /*====================== Ticket End Here ====================*/
 /*============= Project area start  =============*/
 .Our-Project {

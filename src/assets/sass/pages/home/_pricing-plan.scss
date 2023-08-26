@@ -1,5 +1,44 @@
 /*====================== Ticket End Here ====================*/
 
+.ticket-prcing {
+    padding: 170px 0 110px 0;
+    .single-ticket {
+        text-align: center;
+        padding: 50px 20px;
+        height: 412px;
+        border-radius: 7px;
+        transition: .3s;
+        .ticket-img {
+            margin-bottom: 60px;
+        }
+        .title-price {
+            h3 {
+                font-size: 58px;
+                font-weight: 700;
+                margin-bottom: 0;
+                span {
+                    font-size: 28px;
+                    font-weight: 500;
+                    margin-left: -3px;
+                }
+            }
+            span {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 32px;
+                display: inline-block;
+            }
+        }
+        .ticket-btn {
+            a{
+                font-size: 16px;
+                font-family: var(--body-font);
+                font-weight: 600;
+            }
+        }
+    }
 
+ 
+}
 
 /*====================== Ticket End Here ====================*/
