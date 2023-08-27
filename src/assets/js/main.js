@@ -164,6 +164,17 @@ $('.theme-btn').on('mouseenter', function (e) {
         ]
     });
 
+    /*========================= Gallery Slider Js Start ==============*/
+    $('.gallery-slider').slick({
+      rows: 2,
+      dots: false,
+      arrows: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 6,
+      slidesToScroll: 6
+    });
+
   /* ========================= Latest Slider Js Start ===============*/
   $('.client-slider').slick({
   slidesToShow: 6,
