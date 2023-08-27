@@ -6975,92 +6975,6 @@ html {
     color: #F89521;
 }
 
-/*====================== Experience ====================*/
-.experience-area {
-    position: relative;
-}
-
-.experience-area::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background: hsl(var(--dark)/0.92);
-    top: 0;
-    left: 0;
-}
-
-.experience-area .section-heading__title {
-    color: hsl(var(--white));
-}
-
-.experience {
-    transition: all 0.4s ease-in-out;
-    text-align: center;
-    overflow: hidden;
-}
-
-.experience__icon {
-    margin-bottom: 10px;
-    position: relative;
-    box-shadow: 0px 15px 30px rgba(61, 90, 125, 0.08);
-    border-radius: var(--border-radius);
-    border: 2px solid hsl(var(--base)/0.8);
-    transition: all 0.6s ease-in-out;
-    display: inline-block;
-}
-
-.experience__icon h3 {
-    position: relative;
-    margin: 0;
-    padding: 8px 13px;
-}
-
-.experience__icon h3 span {
-    font-size: 45px;
-    color: hsl(var(--white));
-    margin-top: 2px;
-    text-align: center;
-    border-radius: 50%;
-    transition: transform 0.5s ease;
-    font-weight: 700;
-    margin: auto;
-}
-
-@media screen and (max-width: 575px) {
-    .experience__icon h3 span {
-        font-size: 35px;
-    }
-}
-
-.experience__icon h3 span.letter {
-    position: absolute;
-    font-size: 65px;
-    top: -11px;
-    margin-left: 15px;
-    color: hsl(var(--white));
-    margin-top: 5px;
-}
-
-@media screen and (max-width: 575px) {
-    .experience__icon h3 span.letter {
-        font-size: 25px;
-    }
-}
-
-.experience__content h3 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: hsl(var(--white)/0.6);
-}
-
-@media screen and (max-width: 575px) {
-    .experience__content h3 {
-        font-size: 25px;
-    }
-}
 /*====================== Ticket End Here ====================*/
 .ticket-prcing {
     padding: 170px 0 110px 0;
@@ -7144,6 +7058,10 @@ html {
 }
 
 /*====================== Ticket End Here ====================*/
+.gall {
+    color: red;
+}
+
 /*============= Project area start  =============*/
 .Our-Project {
     position: relative;
