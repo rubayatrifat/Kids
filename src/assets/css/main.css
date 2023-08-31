@@ -7270,6 +7270,10 @@ html {
 }
 
 /* ================== Testimonial section started ================== */
+.hey {
+    color: red;
+}
+
 /* ================== Testimonial section end ================== */
 /*=================== Client area =========*/
 .client-logos {
