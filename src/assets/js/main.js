@@ -251,6 +251,47 @@ $('.theme-btn').on('mouseenter', function (e) {
     ]
 });
 
+  /* ========================= Testimonial Js Start ===============*/
+
+  $('.tetimonial-slider-wrapper').slick({
+  slidesToShow: 3,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  pauseOnHover: false,
+  speed: 3000 ,
+  dots: true,
+  arrows: false,
+  prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
+  nextArrow: '<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
+  responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow:6,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 5
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
+});
+
   /*======================= Mouse hover Js Start ============*/
     $('.mousehover-item').on('mouseover', function() {
       $('.mousehover-item').removeClass('active')

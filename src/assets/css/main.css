@@ -7270,8 +7270,18 @@ html {
 }
 
 /* ================== Testimonial section started ================== */
-.hey {
-    color: red;
+.testimonial-area {
+    padding: 145px 0;
+}
+
+.testimonial-area .single-testimonial .testimonial-publisher img {
+    width: 100px;
+}
+
+.testimonial-area .single-testimonial.blue .testimonial-content {
+    background-image: url(../images/testimonials/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ================== Testimonial section end ================== */
