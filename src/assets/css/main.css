@@ -7122,16 +7122,28 @@ html {
     line-height: 25px;
 }
 
-.feature-shapes .bird-2 {
+.feature-shapes img {
     position: absolute;
+}
+
+.feature-shapes .bird-2 {
     left: 5%;
     top: 9%;
 }
 
 .feature-shapes .star {
-    position: absolute;
     right: 8%;
     top: 9%;
+}
+
+.feature-shapes .tree {
+    left: 71px;
+    bottom: 36px;
+}
+
+.feature-shapes .flower {
+    right: 56px;
+    bottom: 6px;
 }
 
 /* =================== Featured End Here ==================== */

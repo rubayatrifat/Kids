@@ -36,17 +36,25 @@
 }
 
 .feature-shapes {
-    .bird-2 {
+    img {
         position: absolute;
+    }
+    .bird-2 {
         left: 5%;
         top: 9%;
     }
     .star {
-        position: absolute;
         right: 8%;
         top: 9%;
     }
-    
+    .tree {
+        left: 71px;
+        bottom: 36px;
+    }    
+    .flower {
+        right: 56px;
+        bottom: 6px;
+    }
 }
 
 /* =================== Featured End Here ==================== */
