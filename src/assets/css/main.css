@@ -6663,11 +6663,7 @@ html {
 .service-area {
     padding: 70px 0 150px 0;
     position: relative;
-}
-
-.service-area .service-wav {
-    position: absolute;
-    top: -60px;
+    overflow-x: hidden;
 }
 
 .service-area .slider-content {
@@ -6707,6 +6703,20 @@ html {
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     background: transparent;
+}
+
+.service-shapes img {
+    position: absolute;
+}
+
+.service-shapes .arrow-2 {
+    top: 210px;
+    right: -62px;
+    width: 164px;
+}
+
+.service-shapes .long-arrow {
+    left: -261px;
 }
 
 /*====================== Service Area End Here ====================*/
@@ -7120,6 +7130,11 @@ html {
 .feature-area .features .single-feature .featured-text p {
     font-size: 14px;
     line-height: 25px;
+}
+
+.feature-area .feature-wav {
+    bottom: 0px;
+    position: absolute;
 }
 
 .feature-shapes img {

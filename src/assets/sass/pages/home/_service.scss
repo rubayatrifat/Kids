@@ -3,10 +3,7 @@
 .service-area {
     padding: 70px 0 150px 0;
     position: relative;
-    .service-wav {
-        position: absolute;
-        top: -60px;
-    }
+    overflow-x: hidden;
     .slider-content {
         text-align: center;
         margin-top: 30px;
@@ -42,6 +39,20 @@
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     background: transparent;
+}
+
+.service-shapes {
+    img {
+        position: absolute;
+    }
+    .arrow-2 {
+        top: 210px;
+        right: -62px;
+        width: 164px;
+    }
+    .long-arrow {
+        left: -261px;
+    }
 }
 
 
