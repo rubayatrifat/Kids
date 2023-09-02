@@ -6872,6 +6872,7 @@ html {
 /*====================== Ticket End Here ====================*/
 .gallery-area {
     background-color: hsl(var(--base)/0.1);
+    padding: 149px 0 10px 0;
 }
 
 /*============= Team Area Start Here =============*/
