@@ -6887,7 +6887,7 @@ html {
 .team-area .team-single-slider .team-member-img img {
     border-radius: 50%;
     outline: 0px dotted hsl(var(--base));
-    border: 20px solid transparent;
+    border: 10px solid transparent;
     margin-bottom: 30px;
 }
 
@@ -6906,7 +6906,7 @@ html {
 
 .team-single-slider:hover .team-member-img img {
     border-radius: 50%;
-    outline: 3px dotted hsl(var(--base));
+    outline: 3px dashed hsl(var(--base));
 }
 
 /*============= Team Area End Here =============*/
@@ -7017,6 +7017,67 @@ html {
 
 /* ================== Testimonial section end ================== */
 /*====================== Blog Start Here ====================*/
+.blog-area {
+    padding: 150px 0;
+}
+
+.blog-area .single-blog-item {
+    border: 3px dashed hsl(var(--base));
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.blog-area .single-blog-item .blog-img {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.blog-area .single-blog-item .blog-img img {
+    transition: 0.4s linear;
+}
+
+.blog-area .single-blog-item .blog-content .blog-title {
+    margin-bottom: 25px;
+}
+
+.blog-area .single-blog-item .blog-content .blog-title h4 {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.blog-area .single-blog-item .blog-content .blog-title p {
+    font-size: 16px;
+    color: #676F6F;
+    line-height: 26px;
+}
+
+.blog-area .single-blog-item .blog-content .blog-date-comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-area .single-blog-item .blog-content .blog-date-comment i {
+    margin-right: 5px;
+    font-size: 16px;
+    color: hsl(var(--base));
+}
+
+.blog-area .single-blog-item .blog-content .blog-date-comment span {
+    font-size: 16px;
+    color: #676F6F;
+}
+
+.single-blog-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.single-blog-item:hover .blog-img img {
+    transform: scale(1.2);
+}
+
 /*====================== Blog End Here ====================*/
 /* =================== Featured Start Here ==================== */
 .feature-area {

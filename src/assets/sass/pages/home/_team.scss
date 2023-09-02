@@ -9,7 +9,7 @@
             img {
                 border-radius: 50%;
                 outline: 0px dotted hsl(var(--base));
-                border: 20px solid transparent;
+                border: 10px solid transparent;
                 margin-bottom: 30px;
             }
         }
@@ -30,7 +30,7 @@
     .team-member-img {
         img {
             border-radius: 50%;
-            outline: 3px dotted hsl(var(--base));
+            outline: 3px dashed hsl(var(--base));
         }
     }
 
