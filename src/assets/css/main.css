@@ -6900,7 +6900,13 @@ html {
 
 /*============= Team Area Start Here =============*/
 .team-area {
-    padding: 125px 0;
+    padding: 65px 0;
+    position: relative;
+}
+
+.team-area .team-wav {
+    position: absolute;
+    bottom: -50px;
 }
 
 .team-area .team-single-slider {

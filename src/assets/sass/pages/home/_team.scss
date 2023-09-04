@@ -1,7 +1,12 @@
 /*============= Team Area Start Here =============*/
 
 .team-area {
-    padding: 125px 0;
+    padding: 65px 0;
+    position: relative;
+    .team-wav {
+        position: absolute;
+        bottom: -50px;
+    }
     .team-single-slider {
         margin-top: 70px;
         transition: all ease-in-out .3s;
