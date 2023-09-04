@@ -3,6 +3,11 @@
 .testimonial-area {
     background-color: hsl(var(--base)/.1);
     padding: 145px 0;
+    position: relative;
+    .testimonial-wav {
+        position: absolute;
+        bottom: 0;
+    }
     .single-testimonial  {
         position: relative;
         .testimonial-publisher {

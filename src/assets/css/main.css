@@ -6907,6 +6907,7 @@ html {
 .team-area .team-wav {
     position: absolute;
     bottom: -50px;
+    z-index: 3;
 }
 
 .team-area .team-single-slider {
@@ -6944,6 +6945,12 @@ html {
 .testimonial-area {
     background-color: hsl(var(--base)/0.1);
     padding: 145px 0;
+    position: relative;
+}
+
+.testimonial-area .testimonial-wav {
+    position: absolute;
+    bottom: 0;
 }
 
 .testimonial-area .single-testimonial {
