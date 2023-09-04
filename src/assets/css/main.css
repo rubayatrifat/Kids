@@ -6806,6 +6806,7 @@ html {
 .ticket-prcing .pricing-wav {
     position: absolute;
     bottom: -50px;
+    z-index: 3;
 }
 
 .ticket-prcing .single-ticket {
@@ -6889,6 +6890,12 @@ html {
 .gallery-area {
     background-color: hsl(var(--base)/0.1);
     padding: 149px 0 10px 0;
+    position: relative;
+}
+
+.gallery-area .gallery-wav {
+    position: absolute;
+    bottom: 0;
 }
 
 /*============= Team Area Start Here =============*/
