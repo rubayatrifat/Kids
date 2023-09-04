@@ -2,6 +2,11 @@
 
 .ticket-prcing {
     padding: 170px 0 110px 0;
+    position: relative;
+    .pricing-wav {
+        position: absolute;
+        bottom: -50px;
+    }
     .single-ticket {
         text-align: center;
         padding: 50px 20px;

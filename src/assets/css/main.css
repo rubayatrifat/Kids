@@ -6800,6 +6800,12 @@ html {
 /*====================== Ticket End Here ====================*/
 .ticket-prcing {
     padding: 170px 0 110px 0;
+    position: relative;
+}
+
+.ticket-prcing .pricing-wav {
+    position: absolute;
+    bottom: -50px;
 }
 
 .ticket-prcing .single-ticket {
