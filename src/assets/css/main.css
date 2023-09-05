@@ -6726,6 +6726,26 @@ html {
     padding: 60px 0;
 }
 
+.event-area .event-shape img {
+    position: absolute;
+}
+
+.event-area .event-shape .star2 {
+    top: 18%;
+    left: 9%;
+}
+
+.event-area .event-shape .arrow-2 {
+    bottom: 30px;
+    z-index: 3;
+    left: 55px;
+}
+
+.event-area .event-shape .right-shape {
+    right: 0;
+    top: 20%;
+}
+
 .event-area .event-wav img {
     position: absolute;
 }

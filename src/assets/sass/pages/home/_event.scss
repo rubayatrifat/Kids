@@ -2,6 +2,24 @@
     background-color: #C0E8FC;
     position: relative;
     padding: 60px 0;
+    .event-shape {
+        img {
+            position: absolute;
+        }
+        .star2 {
+            top: 18%;
+            left: 9%;
+        }
+        .arrow-2 {
+            bottom: 30px;
+            z-index: 3;
+            left: 55px;
+        }
+        .right-shape {
+            right: 0;
+            top: 20%;
+        }
+    }
     .event-wav {
         img {
             position: absolute;
