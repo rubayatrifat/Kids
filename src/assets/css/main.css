@@ -6823,6 +6823,20 @@ html {
     position: relative;
 }
 
+.ticket-prcing .pricing-shapes img {
+    position: absolute;
+}
+
+.ticket-prcing .pricing-shapes .flower2 {
+    right: 5%;
+    top: 28%;
+}
+
+.ticket-prcing .pricing-shapes .bee {
+    bottom: 5%;
+    left: 2%;
+}
+
 .ticket-prcing .pricing-wav {
     position: absolute;
     bottom: -50px;

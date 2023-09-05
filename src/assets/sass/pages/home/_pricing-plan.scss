@@ -3,6 +3,19 @@
 .ticket-prcing {
     padding: 170px 0 110px 0;
     position: relative;
+    .pricing-shapes {
+        img {
+            position: absolute;
+        }
+        .flower2 {
+            right: 5%;
+            top: 28%;
+        }
+        .bee {
+            bottom: 5%;
+            left: 2%;
+        }
+    }
     .pricing-wav {
         position: absolute;
         bottom: -50px;
