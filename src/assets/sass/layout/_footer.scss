@@ -1,7 +1,50 @@
 
 /*============= Footer Start Here =======================*/
 
+.footer-area {
+    background: hsl(var(--base)/0.1);
+    padding: 75px 0 35px 0;
+    .left-footer {
+        .footer-logo-text {
+            img {
+               margin-bottom: 35px;
+           }
+           p {
+               margin-bottom: 20px;
+           }
+       }
+       .social-icons {
+           i {
+               color: #fff;
+               background: #000;
+               width: 45px;
+               height: 45px;
+               text-align: center;
+               line-height: 45px;
+               border-radius: 50%;
+               font-size: 19px;
+               margin-left: 8px;
+           }
+       }
+    }
+    h3 {
+        font-weight: 600;
+        margin-top: 25px;
+    }
 
+    .useful-links {
+        .links {
+            a {
+                display: block;
+                font-size: 18px;
+                color: #6F6870;
+                font-family: var(--body-font);
+                margin-bottom: 11px;
+                margin-left: 8px;
+            }
+        }
+    }
+}
 
 /* ============= Footer End Here ======================= */
 
