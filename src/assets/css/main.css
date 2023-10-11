@@ -3646,6 +3646,43 @@ li.login-registration-list__item .social-list__item .social-list__link:hover {
     margin-left: 8px;
 }
 
+.footer-area .contact-info .infos .single-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 24px;
+    font-family: var(--body-font);
+}
+
+.footer-area .contact-info .infos .single-info i {
+    color: hsl(var(--base));
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+.footer-area .newsletter .email-input {
+    display: flex;
+    align-items: center;
+}
+
+.footer-area .newsletter .email-input input {
+    border: none;
+    margin-top: 27px;
+    padding: 25px 0 11px 25px;
+    font-size: 19px;
+    border-radius: 15px 0 0 15px;
+}
+
+.footer-area .newsletter .email-input i {
+    background: hsl(var(--base));
+    color: #fff;
+    padding: 23px 23px;
+    margin-top: 25.5px;
+    font-size: 19px;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
 /* ============= Footer End Here ======================= */
 /*====================== Preloader Style ====================*/
 #loading {
