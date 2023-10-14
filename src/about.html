@@ -63,109 +63,109 @@
 
 
 <!--========================== Header section Start ==========================-->
-<div class="header-main-area">
+<div class="header-area">
     <div class="header" id="header">
-        <div class="container position-relative">          
-            <div class="row">
-                <div class="header-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+
+                <a class="navbar-brand logo normal-logo" id="normal-logo" href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+               
+
+                <button class="navbar-toggler header-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="hiddenNav"><i class="las la-bars"></i></span>
+                </button>
                 
-                    <div class="logo-wrapper">
-                        <a href="index.html" class="normal-logo"> <img src="assets/images/logo/logo.png" alt=""></a>
-                        <a href="index.html" class="dark-logo hidden"> <img src="assets/images/logo/dark-logo.png" alt=""></a>
-                    </div>
-        
-                    
-                    <div class="menu-wrapper">    
-                        <ul class="main-menu">
-                            <li><a class='active' href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="faq.html">Portfolio</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li>
-                                <div class="menu-search-wrap--search-icon">
-                                    <i class="fa-solid fa-magnifying-glass header-search-icon"></i>
-                                    <i class="fa-solid fa-xmark close-hide-show"></i>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="menu-right-wrapper">     
-                        <ul>
-                            <li>
-                                <div class="menu-search-wrap">
-                                    <div class="menu-search-wrap--search-icon">
-                                        <i class="fa-solid fa-magnifying-glass header-search-icon"></i>
-                                        <i class="fa-solid fa-xmark close-hide-show"></i>
-                                    </div>
-                                    
-                                    <div class="search-box header-search header-search-hide-show">
-                                        <input type="text" class="form--control" placeholder="Search...">
-                                        <button type="submit" class="search-box__button"><i class="fas fa-search"></i></button>
-                                    </div>
-                                    
-                                </div>
-                            </li>
-                            <li>
-                                <div class="light-dark-btn-wrap ms-1" id="light-dark-checkbox">
-                                    <i class="fas fa-moon mon-icon"></i>
-                                    <i class='fas fa-sun sun-icon'></i>
-                                </div> 
-                            </li>
-                            <li><a class='btn btn--base' href="login.html"><i class="fas fa-user"></i> Login </a></li>
-                            <li><i class="fa-solid fa-bars sidebar-menu-show-hide"></i></li>
-                        </ul>
-                    </div>
-        
+      
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-menu ms-auto">                
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="service.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Blog <span class="nav-item__icon"><i class="las la-angle-down"></i></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-menu__list">
+                                    <a class="dropdown-item dropdown-menu__link" href="blog-details.html">Blog Single </a>
+                                </li>
+                            </ul>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li> 
+                    </ul>
+                    <a href="contact.html" class="btn btn--base" style="margin-left: 30px;">
+                        <div class="btn-shape btn-shape-1"></div>
+                        Buy Ticket
+                        <div class="btn-shape btn-shape-2"></div>                
+                    </a>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
 </div>
-
 <!--========================== Header section End ==========================-->
 
 
- <!--========================== Sidebar mobile menu wrap Start ==========================-->
-<div class="sidebar-menu-wrapper">
-    <div class="top-close d-flex align-items-center justify-content-between">
-        <div class="header-wrapper">
-            <div class="logo-wrapper ms-3 mb-1">
-                <div class="logo-wrapper">
-                    <a href="index.html" class="normal-logo" id="normal-logo"> <img src="assets/images/logo/logo.png" alt=""></a>
-                    <a href="index.html" class="dark-logo hidden" id="dark-logo"> <img src="assets/images/logo/dark-logo.png" alt=""></a>
+ <!--========================== Search Modal Start ==========================-->
+ <div class="overlay-search-box position-relative">
+  <div class="modal fade" id="search-box" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="search-overlay-close" data-bs-dismiss="modal" aria-label="Close"><i class="las la-times"></i></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="search-box">
+                                  <div class="input--group">
+                                      <input type="text" class="form--control style-two" placeholder="Search....">
+                                      <button class="search-btn" type="submit"><i class="las la-search"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--========================== Search Modal End ==========================-->
+
+<!-- ============ About Banner Start Here ============ -->
+
+<section class="banner-two">
+    <div class="banner-shapes">
+        <img src="assets/images/shape/arrow.png" class="animate-y-axis arrow-1">
+        <img src="assets/images/shape/rocket.png" class="rocket animate-y-axis-slider">
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-12">
+                <div class="banner-two-content">
+                    <h2>About Us</h2>
+                    <span>Home // <a href="#">About Us</a></span>
                 </div>
             </div>
         </div>
-        <i class="fa-solid fa-xmark close-hide-show"></i>
     </div>
-    <ul class="sidebar-menu-list">
-        <li class="sidebar-menu-list__item active">
-            <a href="dashboard.html" class="sidebar-menu-list__link"> Home</a>
-        </li>
-        <li class="sidebar-menu-list__item">
-            <a href="about.html" class="sidebar-menu-list__link">About Us</a>
-        </li> 
-        <li class="sidebar-menu-list__item ">
-            <a href="services.html" class="sidebar-menu-list__link">Services </a>
-        </li>
-        <li class="sidebar-menu-list__item">
-            <a href="blog.html" class="sidebar-menu-list__link">Blog</a>
-        </li>
-        <li class="sidebar-menu-list__item">
-            <a href="faq.html" class="sidebar-menu-list__link">Faq</a>
-        </li>
-        <li class="sidebar-menu-list__item">
-            <a href="contact.html" class="sidebar-menu-list__link">Contact</a>
-        </li>
-        <li class="sidebar-menu-list__item ">
-            <a class="btn btn--base mt-2 mb-2 ms-3" href="login.html"><i class="fas fa-user"></i> Login </a>
-        </li>
-    </ul>
-</div>
-<!--========================== Sidebar mobile menu wrap End ==========================-->
+    <div class="bg-wav">
+        <img src="assets/images/banner/banner-wav.png">
+    </div>
+</section>
+
+<!-- ============ About Banner End Here ============ -->
 
 <!--========================== About Section Start ==========================-->
 
